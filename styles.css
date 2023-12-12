@@ -1,0 +1,228 @@
+/* styles.css */
+
+body {
+    background-image: url('frame.jpg');
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-position: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 0px;
+    margin-top: 5.8%;
+    margin-bottom: 7.5%;
+}
+
+header {
+    top: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #7f4424;				/*BG color for 1st banner*/
+    color: #800000;
+    text-align: center;
+    height: 80px;
+    padding: 0px;
+    position: sticky;
+    margin-top: 0px;
+}
+
+header.scroll-up {
+    background-color: #000000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 5vw;
+    color: #f2cc8f;					/*WELCOME TO VEDIC MATHS*/
+}
+
+nav {
+    background-color: #b6ad90;					/*BG for 2nd banner*/
+    color: white;
+    text-align: center;
+    top: 80px;
+    position: sticky;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eae0d5;					/*button text color*/
+    font-size: 90%;
+    background-color: #582f0e;				/*Button color*/
+    display: block;
+    padding: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-content a {
+    color: #eae0d5;					/*Color for dropdown text*/
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    header h1 {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    nav ul {
+        font-size: 14px;
+    }
+
+    nav li {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    nav a {
+        padding: 15px;
+    }
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#main {
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image-container {
+    float: right;
+    margin-left: 20px;
+
+}
+
+.image-container img {
+    width: 650px;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+.pi {
+    float: left;
+    margin-right: 0px;
+    width: 25%; /* Adjusted width to leave room for both images side by side */
+}
+
+.pi img {
+    width: 100%;
+    height: auto;
+}
+
+.pi2{
+  width:50%
+}
+
+.bhatta {
+    float: right;
+    margin-left: 0px;
+    width: 50%; /* Adjusted width to leave room for both images side by side */
+    height:auto;
+}
+
+.bhatta img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+#subheading {
+    text-align: left;
+    font-size: 30px;
+    padding: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-bottom: 5px;
+}
+
+#subsubheading {
+    text-align: left;
+    font-size: 25px;
+    padding: 0;
+    margin-left: 0%;
+    margin-right: 4%;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 3px;
+}
+
+#normal {
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 3px;
+}
+
+
+
+  #piList {
+    /* Style for the entire ordered list with the ID "piList" */
+    list-style-type: decimal; /* Use decimal numbers for the list items */
+    margin-left: 20px; /* Adjust the left margin as needed */
+  }
+
+  #piList li::marker {
+    /* Style for the marker (number) of each list item within the ID "piList" */
+    font-size: 30px; /* Adjust the font size as needed */
+    color: blue; /* Optional: Change the color of the numbers */
+    margin-left: 200px;
+  }
+
+
+    hr {
+        border-style: solid; /* Specify the border style, e.g., solid, dashed, dotted, etc. */
+        border-color: #333; /* Specify the border color */
+        border-width: 3px; /* Adjust the border thickness (make it bolder) */
+    }
