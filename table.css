@@ -79,4 +79,24 @@
       table td:last-child {
         border-bottom: 0;
       }
+
+    header h1 {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    nav ul {
+        font-size: 14px;
+    }
+
+    nav li {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    nav a {
+        padding: 15px;
+    }
+
     }
