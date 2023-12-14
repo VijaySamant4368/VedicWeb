@@ -1,0 +1,19 @@
+    /* Add styling for the video container */
+    .video-container {
+      display: flex;
+      border: 2px solid #ccc; /* Border color */
+      padding: 10px; /* Adjust padding as needed */
+      margin-top: 20px; /* Adjust margin as needed */
+    }
+
+    /* Style for the text next to the video */
+    .video-text {
+      margin-left: 20px; /* Adjust margin as needed */
+    }
+
+    /* Set width and make it responsive */
+    video {
+      width: 100%; /* Take 100% of the container width */
+      max-width: 640px; /* Set a maximum width */
+      height: auto; /* Maintain aspect ratio */
+    }

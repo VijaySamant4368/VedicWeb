@@ -99,4 +99,8 @@
         padding: 15px;
     }
 
+header {
+    position: absolute;
+}
+
     }
